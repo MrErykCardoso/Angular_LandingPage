@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: black;
+    background-position: center center;
+    background-size: cover;
+    color: whitesmoke;
+    min-height: 100vh;
+    padding-top: 69.2rem 0 69.2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    padding: 12rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}

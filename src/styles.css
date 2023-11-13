@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+/*
+Color:
+Primary: #330033
+Second: #440044
+third: #550055
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 6.25%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 60rem;
+}
+h2 {
+    font-size: 55rem;
+}
+h3 {
+    font-size: 50rem;
+}
+h4 {
+    font-size: 45rem;
+}
+h5 {
+    font-size: 40rem;
+}
+h6 {
+    font-size: 30rem;
+}

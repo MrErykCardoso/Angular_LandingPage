@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background: whitesmoke;
+    background-size: cover;
+    background-position: center center;
+    color: black;
+    min-height: 100vh;
+    padding-top: 69.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.range {
+    background: #ececdc;
+    width: 100vw;
+    padding: 12rem;
+}
+
+.main-div {
+    max-width: 1200rem;
+    margin: 0 auto;
+    padding: 12rem;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12rem;
+    align-items: center;
+}
+
+.intro-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    gap: 12rem;
+}
+
+.intro-text h6 {
+    padding-top: 15rem;
+    color: #931e23;
+}
+
+.intro-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

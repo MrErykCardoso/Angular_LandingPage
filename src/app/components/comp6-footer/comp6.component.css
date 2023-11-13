@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background: whitesmoke;
+    color: black;
+}
+
+div {
+    max-width: 1200rem;
+    margin: 0 auto;
+    padding: 12rem;
+    padding-top: 30rem;
+    padding-bottom: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
