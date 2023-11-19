@@ -31,9 +31,9 @@ section img {
 .main-div {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 12rem;
+    padding: 30rem;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: center;
+    gap: 30rem;
 }
-
