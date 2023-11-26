@@ -8,5 +8,7 @@ import { Component, Input } from '@angular/core';
   template: '<div>{{ frase }}</div>',
 })
 export class Comp8QuadroFraseComponent {
+
+
   @Input() frase: string = '';
 }

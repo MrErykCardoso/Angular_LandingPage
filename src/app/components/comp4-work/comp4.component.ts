@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Comp7ButtomLeroComponent } from '../comp7-buttom-lero/comp7-buttom-lero.component';
 
 @Component({
