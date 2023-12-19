@@ -4,7 +4,6 @@ import { Component, EventEmitter, Output } from '@angular/core';
   selector: 'app-comp7-buttom-lero',
   templateUrl: './comp7-buttom-lero.component.html',
   styleUrls: ['./comp7-buttom-lero.component.css'],
-  template: '<button (click)="gerarFrase()">Gerar frase<button>'
 })
 export class Comp7ButtomLeroComponent {
 

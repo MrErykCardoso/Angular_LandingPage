@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class Comp8QuadroFraseComponent {
 
-  @Input() frase: string = '';
+  @Input() frase!: string
 
 }

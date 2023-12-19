@@ -13,7 +13,6 @@ section {
     align-items: center;
     position: relative;
     overflow-x: hidden;
-    z-index: -1;
 }
 
 section img {

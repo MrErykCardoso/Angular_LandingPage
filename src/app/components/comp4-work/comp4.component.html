@@ -1,12 +1,8 @@
 <section id="work">
     <div class="range">
         <div class="main-div">
-            <div>
-                <app-comp8-quadro-frase [frase]="fraseRecebida"></app-comp8-quadro-frase>
-            </div>
-            <div>
-                <app-comp7-buttom-lero (fraseGerada)="receberFrase($event)"></app-comp7-buttom-lero>
-            </div>
+            <app-comp8-quadro-frase [frase]="fraseRecebida"></app-comp8-quadro-frase>
+            <app-comp7-buttom-lero (fraseGerada)="receberFrase($event)"></app-comp7-buttom-lero>
         </div>
     </div>
     <img src="../../../assets/img/leroLeroMain-spined-left.png" alt="ovelha do lero lero girada">
